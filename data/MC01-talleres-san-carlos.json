@@ -1,0 +1,25 @@
+{
+  "id": "MC01",
+  "nombre": "Talleres San Carlos",
+  "slug": "talleres-san-carlos",
+  "categoria": "taller-mecanico",
+  "zona": "Casco Antiguo",
+  "direccion": "C. Tharsis, S/N, 41001 Sevilla",
+  "telefono": "954 41 73 06",
+  "rating": 4.7,
+  "total_resenas": 128,
+  "servicios": ["Mecánica general", "Neumáticos", "Alineación y equilibrado", "Diagnóstico de averías", "Mantenimiento preventivo"],
+  "horario": "Consultar con el taller",
+  "descripcion": "Taller mecánico de confianza en el centro de Sevilla. Con 128 reseñas y una calificación de 4.7, Talleres San Carlos destaca por su rapidez, sinceridad y precios ajustados. Especialistas en mecánica general y neumáticos.",
+  "email": null,
+  "web": null,
+  "redes_sociales": {"facebook": null, "instagram": null, "twitter": null},
+  "testimonios": [
+    "Fui a poner unos neumáticos comprados online, y estoy encantado con el trato. Muy amables, rápidos, precio más barato que en otros sitios y me dijeron que no hacía falta alineación: una sinceridad que se echa en falta.",
+    "El mejor taller de Sevilla, se que cada vez que voy van a ayudarme en todo lo que haga falta y se preocupan por que tengas el coche listo lo antes posible.",
+    "Trabajo fantástico. Rápidos al coger un pinchazo, buen trabajo y precio ajustado."
+  ],
+  "maps_url": "https://maps.google.com/?cid=2638669756210866751",
+  "fuentes": ["Google Maps"],
+  "metadata": {"fecha_extraccion": "2026-06-09T22:00:00", "agente": "deepseek-v4-flash"}
+}

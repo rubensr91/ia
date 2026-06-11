@@ -1,0 +1,22 @@
+[
+  {"id":"01","nombre":"AM Pro Clinic","slug":"am-pro-clinic","direccion":"Av. República de China, Edificio Giralda Este II, Local 24, 41020 Sevilla","telefono":"644 50 34 13","zona":"Sevilla Este","rating":5.0,"maps_url":"https://maps.google.com/?cid=cf8459464dee57c7"},
+  {"id":"02","nombre":"Fisioterapia Medhera","slug":"fisioterapia-medhera","direccion":"Av. de la Innovación, 6, Edificio Convención, oficina 212, 41020 Sevilla","telefono":"603 77 03 85","zona":"Sevilla Este","rating":5.0,"maps_url":""},
+  {"id":"03","nombre":"Fisioterapia Germán Santos","slug":"fisioterapia-german-santos","direccion":"Av. Alcalde Luis Uruñuela, Edificio Congreso 1ª planta, módulo 124, 41020 Sevilla","telefono":"634 63 92 49","zona":"Sevilla Este","rating":5.0,"maps_url":""},
+  {"id":"04","nombre":"Centro de Fisioterapia Fisioeste","slug":"centro-fisioterapia-fisioeste","direccion":"C. Isla Mayor, local 3, 41016 Sevilla","telefono":"637 27 26 80","zona":"Torreblanca","rating":5.0,"maps_url":""},
+  {"id":"05","nombre":"Clínica Bellavista","slug":"clinica-bellavista","direccion":"C. Alonso Mingo, 39, Local B, 41014 Sevilla","telefono":"630 10 21 07","zona":"Bellavista","rating":4.9,"maps_url":""},
+  {"id":"06","nombre":"Clínica Los Remedios. Podología y Fisioterapia","slug":"clinica-los-remedios","direccion":"C. Virgen de la Estrella, 2, 41011 Sevilla","telefono":"652 28 79 90","zona":"Los Remedios","rating":4.8,"maps_url":""},
+  {"id":"07","nombre":"Centro de Fisioterapia y Estética CEFYES","slug":"cefyes","direccion":"Av. Alcalde Juan Fernández, 21, 41005 Sevilla","telefono":"614 02 79 84","zona":"Nervión","rating":5.0,"maps_url":""},
+  {"id":"08","nombre":"Fisiosalud Nervión","slug":"fisiosalud-nervion","direccion":"C. San Florencio, 7, 41018 Sevilla","telefono":"954 58 41 91","zona":"Nervión","rating":3.9,"maps_url":""},
+  {"id":"09","nombre":"NUON SPORT - Fisioterapia y Entrenamiento personal","slug":"nuon-sport","direccion":"C/ Marqués del Nervión, 10, 41005 Sevilla","telefono":"672 26 92 31","zona":"Nervión","rating":4.4,"maps_url":""},
+  {"id":"10","nombre":"Clínica de Fisioterapia Marta Montilla","slug":"clinica-marta-montilla","direccion":"Av. de la mujer trabajadora, Parqueflores, local 6, 41015 Sevilla","telefono":"658 47 91 28","zona":"Parqueflores-Norte","rating":5.0,"maps_url":""},
+  {"id":"11","nombre":"Fisical Sevilla","slug":"fisical-sevilla","direccion":"C. Castillo de Aroche, 1, 41013 Sevilla","telefono":"955 11 66 00","zona":"Padre Pío/Rochelambert","rating":3.0,"maps_url":""},
+  {"id":"12","nombre":"Fisical Sevilla Este","slug":"fisical-sevilla-este","direccion":"Sevilla Este, 41020 Sevilla","telefono":"955 11 66 00","zona":"Sevilla Este","rating":4.0,"maps_url":""},
+  {"id":"13","nombre":"Masajeando","slug":"masajeando","direccion":"Av. de la Barzola, 48, 41008 Sevilla","telefono":"620 52 13 12","zona":"La Barzola","rating":4.8,"maps_url":""},
+  {"id":"14","nombre":"Korebi","slug":"korebi","direccion":"Av. Vía Apia, 7, Edificio Agora, Portal C, Módulo 15, 41016 Sevilla","telefono":"","zona":"Torreblanca","rating":0,"maps_url":""},
+  {"id":"15","nombre":"Nathurmed","slug":"nathurmed","direccion":"Av. la Calesera, 31, 41006 Sevilla","telefono":"686 93 06 64","zona":"Cerro del Águila","rating":4.6,"maps_url":""},
+  {"id":"16","nombre":"Clínica del Pie Bami","slug":"clinica-del-pie-bami","direccion":"C. Rafael Salgado, 19, 41013 Sevilla","telefono":"954 62 78 02","zona":"Bami","rating":4.9,"maps_url":""},
+  {"id":"17","nombre":"MVP Fisioterapia/Readaptación","slug":"mvp-fisioterapia","direccion":"C. Castillo de Alcalá de Guadaíra, 41013 Sevilla","telefono":"651 72 39 23","zona":"Padre Pío","rating":0,"maps_url":""},
+  {"id":"18","nombre":"Clínicas Galindo Toucedo","slug":"clinicas-galindo-toucedo","direccion":"C. Sembradores, s/n, 41015 Sevilla","telefono":"658 42 35 37","zona":"Pino Montano","rating":4.0,"maps_url":""},
+  {"id":"19","nombre":"LIBERA FISIOTERAPIA Y SALUD GLOBAL","slug":"libera-fisioterapia","direccion":"C. Manuel Ramón Alarcón, 33, 41007 Sevilla","telefono":"611 89 46 39","zona":"Santa Clara","rating":5.0,"maps_url":""},
+  {"id":"20","nombre":"Clínica Santa Angela de la Cruz","slug":"clinica-santa-angela-cruz","direccion":"C. Poseidón, 62, 41014 Sevilla","telefono":"955 46 50 47","zona":"Bellavista","rating":4.3,"maps_url":""}
+]

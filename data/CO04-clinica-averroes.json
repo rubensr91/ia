@@ -1,0 +1,24 @@
+{
+  "id": "CO04",
+  "nombre": "Clínica de Rehabilitación y Fisioterapia 'Averroes'",
+  "slug": "clinica-averroes",
+  "zona": "Levante",
+  "direccion": "C. Esparta, 14, Levante, 14007 Córdoba",
+  "telefono": "957 43 12 86",
+  "rating": 4.8,
+  "total_resenas": 29,
+  "servicios": ["Rehabilitación de lesiones", "Fisioterapia deportiva", "Traumatología", "Recuperación de accidentes"],
+  "horario": "Consultar con el centro",
+  "descripcion": "Clínica de rehabilitación y fisioterapia con sedes en C. Esparta 14 y C. Platero Pedro de Bares 42. Alfonso es el fisioterapeuta principal, conocido por su trato amable y profesional.",
+  "email": null,
+  "web": null,
+  "redes_sociales": {"facebook": null, "instagram": null, "twitter": null},
+  "testimonios": [
+    "En una sola sesión me ha quitado prácticamente el dolor de rodilla que tenía desde hacía casi un año.",
+    "Es una clínica magnífica a la hora del trato y la profesionalidad. Alfonso es un gran fisio.",
+    "Te explica todo con mucha claridad. Volveré sin duda."
+  ],
+  "maps_url": "https://maps.google.com/?cid=10417245601430279612",
+  "fuentes": ["Google Maps", "Doctoralia"],
+  "metadata": {"fecha_extraccion": "2026-06-09T21:45:00", "agente": "gemini"}
+}

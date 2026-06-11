@@ -1,0 +1,7 @@
+[
+  {"id":"CO01","nombre":"Fisioterapia Belén Obregón","slug":"fisioterapia-belen-obregon","direccion":"Felipe Mellizo Cuadrado, 3, Noroeste, 14011 Córdoba","telefono":"610 02 94 38","zona":"Noroeste","rating":5.0,"total_resenas":233,"maps_url":"https://maps.google.com/?cid=7209686005623043951"},
+  {"id":"CO02","nombre":"Galiani Salud","slug":"galiani-salud","direccion":"Av. de Carlos III, 23, Levante, 14014 Córdoba","telefono":"957 74 95 85","zona":"Levante","rating":5.0,"total_resenas":50,"maps_url":"https://maps.google.com/?cid=10385445510016399976"},
+  {"id":"CO03","nombre":"Centro de Fisioterapia Antonio J Sánchez Vázquez (TOCHU)","slug":"centro-fisioterapia-antonio-sanchez","direccion":"Av. de Barcelona, 22, 2-1, Levante, 14010 Córdoba","telefono":"679 10 55 63","zona":"Levante","rating":5.0,"total_resenas":14,"maps_url":"https://maps.google.com/?cid=16292147996772683426"},
+  {"id":"CO04","nombre":"Clínica de Rehabilitación y Fisioterapia 'Averroes'","slug":"clinica-averroes","direccion":"C. Esparta, 14, Levante, 14007 Córdoba","telefono":"957 43 12 86","zona":"Levante","rating":4.8,"total_resenas":29,"maps_url":"https://maps.google.com/?cid=10417245601430279612"},
+  {"id":"CO05","nombre":"Physiotherapy Pilates Córdoba Center SL","slug":"pilates-cordoba-center","direccion":"C. Duque de Fernán Núñez, 15, Centro, 14003 Córdoba","telefono":"656 69 31 41","zona":"Centro","rating":4.5,"total_resenas":36,"maps_url":"https://maps.google.com/?cid=458429431596223032"}
+]

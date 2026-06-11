@@ -1,0 +1,23 @@
+{
+  "id": "CO05",
+  "nombre": "Physiotherapy Pilates Córdoba Center SL",
+  "slug": "pilates-cordoba-center",
+  "zona": "Centro",
+  "direccion": "C. Duque de Fernán Núñez, 15, Centro, 14003 Córdoba",
+  "telefono": "656 69 31 41",
+  "rating": 4.5,
+  "total_resenas": 36,
+  "servicios": ["Fisioterapia", "Rehabilitación funcional", "Pilates terapéutico", "Clases de pilates"],
+  "horario": "Lunes a viernes de 9:00 a 13:00 y de 17:00 a 21:00",
+  "descripcion": "Centro especializado en fisioterapia, rehabilitación funcional y pilates en pleno centro de Córdoba. Combinan tratamiento manual con ejercicio terapéutico para una recuperación integral.",
+  "email": null,
+  "web": null,
+  "redes_sociales": {"facebook": null, "instagram": null, "twitter": null},
+  "testimonios": [
+    "Llegué sin poder andar por un accidente de tráfico y en un mes estoy casi recuperado. Agradecimiento total.",
+    "La fisioterapeuta es toda una profesional. Trato excelente."
+  ],
+  "maps_url": "https://maps.google.com/?cid=458429431596223032",
+  "fuentes": ["Google Maps", "Doctoralia"],
+  "metadata": {"fecha_extraccion": "2026-06-09T21:45:00", "agente": "gemini"}
+}

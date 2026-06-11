@@ -1,0 +1,24 @@
+{
+  "id": "CO01",
+  "nombre": "Fisioterapia Belén Obregón",
+  "slug": "fisioterapia-belen-obregon",
+  "zona": "Noroeste",
+  "direccion": "Felipe Mellizo Cuadrado, 3, Noroeste, 14011 Córdoba",
+  "telefono": "610 02 94 38",
+  "rating": 5.0,
+  "total_resenas": 233,
+  "servicios": ["Ejercicio terapéutico", "Punción seca", "Masaje deportivo", "Masaje terapéutico", "Tratamiento del dolor", "Diagnóstico ATM"],
+  "horario": "Lunes a viernes (contactar para horarios)",
+  "descripcion": "Centro de fisioterapia y nutrición dirigido por Belén Obregón. Profesional con más de 233 reseñas en Google Maps, todas con calificación perfecta. Destaca por su trato cercano y resultados efectivos.",
+  "email": null,
+  "web": null,
+  "redes_sociales": {"facebook": null, "instagram": null, "twitter": null},
+  "testimonios": [
+    "Belén es una gran profesional, a parte de ser una gran persona. Desde el primer momento me supo tratar y dar con mis dolencias.",
+    "Belén es una profesional increíble, muy empática, amable, simpática. 100% recomendable.",
+    "Una gran profesional y mejor persona. Repetiré sin dudarlo."
+  ],
+  "maps_url": "https://maps.google.com/?cid=7209686005623043951",
+  "fuentes": ["Google Maps", "Doctoralia"],
+  "metadata": {"fecha_extraccion": "2026-06-09T21:45:00", "agente": "gemini"}
+}

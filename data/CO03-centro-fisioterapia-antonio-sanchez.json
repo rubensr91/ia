@@ -1,0 +1,24 @@
+{
+  "id": "CO03",
+  "nombre": "Centro de Fisioterapia Antonio J Sánchez Vázquez (TOCHU)",
+  "slug": "centro-fisioterapia-antonio-sanchez",
+  "zona": "Levante",
+  "direccion": "Av. de Barcelona, 22, 2-1, Levante, 14010 Córdoba",
+  "telefono": "679 10 55 63",
+  "rating": 5.0,
+  "total_resenas": 14,
+  "servicios": ["Fisioterapia", "Rehabilitación", "Recuperación postquirúrgica", "Terapia manual"],
+  "horario": "Lunes a jueves de 8:00 a 21:00, viernes de 8:00 a 14:00",
+  "descripcion": "Centro de fisioterapia dirigido por Antonio J. Sánchez Vázquez 'TOCHU'. Especializado en recuperación postquirúrgica y rehabilitación de lesiones. Serio, profesional y con un trato excelente.",
+  "email": null,
+  "web": null,
+  "redes_sociales": {"facebook": null, "instagram": null, "twitter": null},
+  "testimonios": [
+    "Me operé de la cadera y Tochu ha conseguido que mi grave problema de movilidad haya mejorado magníficamente.",
+    "Fui con un dolor en el pie después de muchos meses. Me ha ido genial, prácticamente no me duele apenas.",
+    "Súper profesional y serio. Recomendable totalmente."
+  ],
+  "maps_url": "https://maps.google.com/?cid=16292147996772683426",
+  "fuentes": ["Google Maps"],
+  "metadata": {"fecha_extraccion": "2026-06-09T21:45:00", "agente": "gemini"}
+}

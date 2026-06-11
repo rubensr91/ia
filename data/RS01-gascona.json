@@ -1,0 +1,28 @@
+{
+  "id": "RS01",
+  "nombre": "Gascona",
+  "slug": "gascona",
+  "categoria": "restaurante",
+  "zona": "Triana",
+  "direccion": "C. Castilla, 22, 41010 Sevilla",
+  "telefono": "636 47 45 63",
+  "rating": 4.8,
+  "total_resenas": 2912,
+  "precio": "PRICE_LEVEL_MODERATE",
+  "servicios": ["Cocina asturiana", "Fabada", "Cachopo al cabrales", "Arroces", "Carne a la parrilla", "Marisco", "Sidra natural"],
+  "horario": "Lun-sáb 13:30-16:30, 20:30-24:00. Dom 13:30-16:30",
+  "descripcion": "Restaurante asturiano en el corazón de Triana. Cachopos espectaculares, fabada tradicional y sidra natural servida con escanciador. Materia prima de calidad, ambiente acogedor y trato excelente. Considerado por muchos el mejor restaurante asturiano fuera de Asturias.",
+  "email": null,
+  "web": null,
+  "redes_sociales": {"facebook": null, "instagram": null, "twitter": null},
+  "testimonios": [
+    "Quién iba a decirle a Sevilla que iba a tener el mejor restaurante asturiano de España. Buena materia prima, precios nada desorbitados. El cachopo al cabrales espectacular.",
+    "Comida excelente, todo muy rico. Pero tengo que recalcar el buen trato de Lidia, que nos llevó la mesa. Competente, excelente y con un don para tratar a la gente. Volveremos.",
+    "Cocina tradicional asturiana bien elaborada con materias primas de calidad. Muy recomendable el cachopo al cabrales y la fabada. Postres caseros. Excelente relación calidad-precio."
+  ],
+  "maps_url": "https://maps.google.com/?cid=5676192936418391034",
+  "pago": ["Tarjeta crédito", "Tarjeta débito", "NFC"],
+  "coordenadas": {"lat": 37.3867464, "lng": -6.0048046},
+  "fuentes": ["Google Maps"],
+  "metadata": {"fecha_extraccion": "2026-06-09T22:30:00", "agente": "deepseek-v4-flash"}
+}

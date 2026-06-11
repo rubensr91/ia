@@ -1,0 +1,24 @@
+{
+  "id": "CO02",
+  "nombre": "Galiani Salud",
+  "slug": "galiani-salud",
+  "zona": "Levante",
+  "direccion": "Av. de Carlos III, 23, Levante, 14014 Córdoba",
+  "telefono": "957 74 95 85",
+  "rating": 5.0,
+  "total_resenas": 50,
+  "servicios": ["Fisioterapia", "Psicología", "Nutrición", "Tratamiento personalizado"],
+  "horario": "Lunes a viernes de 8:00 a 21:00 (con cita previa)",
+  "descripcion": "Clínica multidisciplinar que integra fisioterapia, psicología y nutrición en Córdoba. Isaac y Raúl ofrecen un enfoque personalizado con trato cercano y profesional.",
+  "email": null,
+  "web": null,
+  "redes_sociales": {"facebook": null, "instagram": null, "twitter": null},
+  "testimonios": [
+    "Raúl muy buen profesional, siempre atento y preocupado por el bienestar del paciente. Explica todo con claridad.",
+    "Sitio acogedor, muy buen trato. Enfoque personalizado justo lo que necesitaba.",
+    "Trato excelente y resultados visibles desde las primeras sesiones."
+  ],
+  "maps_url": "https://maps.google.com/?cid=10385445510016399976",
+  "fuentes": ["Google Maps", "Doctoralia"],
+  "metadata": {"fecha_extraccion": "2026-06-09T21:45:00", "agente": "gemini"}
+}

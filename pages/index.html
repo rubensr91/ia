@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Negocios Locales sin Web</title>
+  <meta name="description" content="Directorio de negocios sin web con buenas valoraciones.">
+  <style>
+    :root { --primary: #2A7F62; --primary-dark: #1E5E48; --bg: #F5F5F0; --text: #333; --text-light: #666; --white: #FFF; --shadow: 0 2px 16px rgba(0,0,0,0.08); --radius: 12px; }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; }
+    .container { max-width: 1200px; margin: auto; padding: 0 20px; }
+    header { background: linear-gradient(135deg, #1D3557 0%, #2A4A7F 100%); color: #fff; padding: 60px 0 40px; text-align: center; }
+    header h1 { font-size: 2.5rem; margin-bottom: 10px; }
+    header p { opacity: 0.85; }
+    header .sub { margin-top: 6px; opacity: 0.6; font-size: 0.9rem; }
+    .filtros { background: var(--white); padding: 20px 0; box-shadow: var(--shadow); position: sticky; top: 0; z-index: 100; }
+    .filtros-inner { display: flex; gap: 16px; align-items: center; flex-wrap: wrap; }
+    .filtros input, .filtros select { padding: 10px 16px; border: 2px solid #ddd; border-radius: 8px; font-size: 0.95rem; font-family: inherit; background: var(--white); transition: border-color 0.3s; }
+    .filtros input:focus, .filtros select:focus { outline: none; border-color: var(--primary); }
+    .filtros input { flex: 1; min-width: 200px; }
+    .filtros .count { color: var(--text-light); font-size: 0.9rem; margin-left: auto; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(340px, 1fr)); gap: 24px; padding: 40px 0; }
+    .card { background: var(--white); border-radius: var(--radius); padding: 28px; box-shadow: var(--shadow); transition: all 0.3s; text-decoration: none; color: var(--text); display: flex; flex-direction: column; }
+    .card:hover { transform: translateY(-4px); box-shadow: 0 8px 24px rgba(0,0,0,0.12); }
+    .card-cat { display: inline-block; padding: 4px 12px; border-radius: 20px; font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 12px; align-self: flex-start; }
+    .cat-mecanico { background: #E8EDF3; color: #1D3557; }
+    .cat-cosmetica { background: #FDF0F2; color: #D4818A; }
+    .cat-restaurante { background: #FDE8EA; color: #C1121F; }
+    .card-ciudad { font-size: 0.8rem; color: var(--text-light); margin-bottom: 4px; }
+    .card h3 { font-size: 1.2rem; margin-bottom: 8px; color: #1a1a2e; }
+    .card .direccion { font-size: 0.9rem; color: var(--text-light); margin-bottom: 12px; flex: 1; }
+    .card .telefono { font-weight: 600; color: var(--primary); margin-bottom: 8px; }
+    .card .rating { display: flex; align-items: center; gap: 6px; }
+    .card .rating .num { font-weight: 700; font-size: 1.1rem; color: #1a1a2e; }
+    .card .rating .resenas { color: var(--text-light); font-size: 0.85rem; }
+    .card .btn-visitar { display: inline-block; margin-top: 16px; padding: 10px 20px; background: var(--primary); color: var(--white); border-radius: 8px; text-align: center; font-weight: 600; font-size: 0.9rem; transition: background 0.3s; }
+    .card .btn-visitar:hover { background: var(--primary-dark); }
+    .sin-resultados { grid-column: 1/-1; text-align: center; padding: 60px; color: var(--text-light); }
+    footer { background: #1D3557; color: #fff; text-align: center; padding: 30px 0; margin-top: 40px; }
+    @media (max-width: 768px) { header h1 { font-size: 1.8rem; } .filtros-inner { flex-direction: column; } .filtros input, .filtros select { width: 100%; } .filtros .count { margin-left: 0; } }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Negocios Locales sin Web</h1>
+      <p>Negocios con buenas valoraciones que aun no tienen pagina web</p>
+      <p class="sub">Datos extraidos via Google Maps · Junio 2026</p>
+    </div>
+  </header>
+  <div class="filtros">
+    <div class="container">
+      <div class="filtros-inner">
+        <input type="text" id="buscador" placeholder="Buscar..." oninput="f()">
+        <select id="f-ciudad" onchange="f()"><option value="">Todas las ciudades</option></select>
+        <select id="f-cat" onchange="f()"><option value="">Todas las categorias</option></select>
+        <span class="count" id="cont">0 negocios</span>
+      </div>
+    </div>
+  </div>
+  <div class="container"><div class="grid" id="grid"></div></div>
+  <footer><div class="container"><p>&copy; <span id="year"></span> Datos de Google Maps</p></div></footer>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+    const n = [
+      {id:"RS01",nombre:"Gascona",cat:"Restaurante",cls:"cat-restaurante",ciudad:"Sevilla",zona:"Triana",dir:"C. Castilla, 22",tel:"636 47 45 63",rat:4.8,res:2912,slug:"RS01-gascona"},
+      {id:"MC01",nombre:"Talleres San Carlos",cat:"Taller Mecanico",cls:"cat-mecanico",ciudad:"Sevilla",zona:"Casco Antiguo",dir:"C. Tharsis, S/N",tel:"954 41 73 06",rat:4.7,res:128,slug:"MC01-talleres-san-carlos"},
+      {id:"MC02",nombre:"Lavapies Cosmetics",cat:"Cosmetica",cls:"cat-cosmetica",ciudad:"Madrid",zona:"Centro",dir:"C. de Miguel Servet, 3",tel:"911 48 21 35",rat:4.7,res:92,slug:"MC02-lavapies-cosmetics"}
+    ];
+    [...new Set(n.map(x=>x.ciudad))].sort().forEach(c=>{let o=document.createElement('option');o.value=c;o.textContent=c;document.getElementById('f-ciudad').appendChild(o)});
+    [...new Set(n.map(x=>x.cat))].sort().forEach(c=>{let o=document.createElement('option');o.value=c;o.textContent=c;document.getElementById('f-cat').appendChild(o)});
+    function f(){
+      const t=document.getElementById('buscador').value.toLowerCase(),ci=document.getElementById('f-ciudad').value,ca=document.getElementById('f-cat').value,g=document.getElementById('grid');
+      const r=n.filter(x=>(x.nombre.toLowerCase().includes(t)||x.dir.toLowerCase().includes(t)||x.ciudad.toLowerCase().includes(t)||x.cat.toLowerCase().includes(t))&&(!ci||x.ciudad===ci)&&(!ca||x.cat===ca)).sort((a,b)=>b.rat-a.rat);
+      document.getElementById('cont').textContent=r.length+' negocio'+(r.length!==1?'s':'');
+      if(!r.length){g.innerHTML='<div class="sin-resultados"><h3>Sin resultados</h3></div>';return;}
+      g.innerHTML=r.map(x=>`<a href="${x.slug}/" class="card"><span class="card-cat ${x.cls}">${x.cat}</span><span class="card-ciudad">${x.ciudad} · ${x.zona}</span><h3>${x.nombre}</h3><p class="direccion">${x.dir}</p><p class="telefono">${x.tel}</p><div class="rating"><span style="color:#f1c40f;">${'★'.repeat(Math.floor(x.rat))}</span><span class="num">${x.rat}</span><span class="resenas">(${x.res} resenas)</span></div><span class="btn-visitar">Ver landing →</span></a>`).join('');
+    }
+    f();
+  </script>
+</body>
+</html>

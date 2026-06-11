@@ -1,0 +1,25 @@
+{
+  "id": "MC02",
+  "nombre": "Lavapies Cosmetics",
+  "slug": "lavapies-cosmetics",
+  "categoria": "cosmetica",
+  "zona": "Centro",
+  "direccion": "C. de Miguel Servet, 3, Centro, 28012 Madrid",
+  "telefono": "911 48 21 35",
+  "rating": 4.7,
+  "total_resenas": 92,
+  "servicios": ["Extensiones capilares", "Productos de cosmética", "Cuidado capilar", "Asesoramiento personalizado", "Venta online con envío"],
+  "horario": "Consultar con la tienda",
+  "descripcion": "Tienda de cosmética y extensiones capilares en el corazón de Lavapiés, Madrid. Con 92 reseñas y una calificación de 4.7, destacan por la calidad de sus productos, el trato cercano y la rapidez en los envíos.",
+  "email": null,
+  "web": null,
+  "redes_sociales": {"facebook": null, "instagram": null, "twitter": null},
+  "testimonios": [
+    "Genial! Me lo habían recomendado y les hablé por WhatsApp. Les expliqué lo que buscaba y todo fue rápido y atento. Muy buen precio y de calidad.",
+    "Excelente calidad y servicio, muy contenta. El servicio de transporte es muy atento, se preocupan y te escriben avisándote de cualquier eventualidad. Además llega súper rápido.",
+    "Las extensiones de cabello son de excelente calidad. Se ve natural, suave y brillante. La atención en la tienda es muy amable."
+  ],
+  "maps_url": "https://maps.google.com/?cid=13274276139279754108",
+  "fuentes": ["Google Maps"],
+  "metadata": {"fecha_extraccion": "2026-06-09T22:00:00", "agente": "deepseek-v4-flash"}
+}
