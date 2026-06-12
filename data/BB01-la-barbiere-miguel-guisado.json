@@ -1,0 +1,36 @@
+{
+  "id": "BB01",
+  "nombre": "LA BARBIÈRE Miguel Guisado Caballeros y Niños",
+  "slug": "la-barbiere-miguel-guisado",
+  "categoria": "barberia",
+  "zona": "Sevilla Este",
+  "direccion": "C. Indonesia, 4, local 6, 41020 Sevilla",
+  "telefono": "693 41 18 36",
+  "rating": 4.9,
+  "total_resenas": 230,
+  "pago": ["Efectivo", "Tarjeta de crédito", "Tarjeta de débito", "NFC"],
+  "coordenadas": {"lat": 37.4050612, "lng": -5.9186385},
+  "servicios": ["Corte de caballero", "Corte infantil", "Arreglo de barba", "Degradado", "Combo corte + barba"],
+  "horario": {
+    "lunes": "9:30–14:00, 16:00–21:00",
+    "martes": "9:30–14:00, 16:00–21:00",
+    "miércoles": "9:30–14:00, 16:00–21:00",
+    "jueves": "9:30–21:00 (continuo)",
+    "viernes": "9:30–21:00 (continuo)",
+    "sábado": "9:00–14:00",
+    "domingo": "Cerrado"
+  },
+  "descripcion": "Barbería tradicional en Sevilla Este. Miguel Guisado y su equipo ofrecen cortes de caballero e infantil, arreglos de barba y degradados. Atención impecable, trato cercano y resultados que hablan por sí solos. 230 reseñas con 4.9 estrellas que avalan un servicio de primera.",
+  "email": null,
+  "web": null,
+  "redes_sociales": {"facebook": null, "instagram": null, "twitter": null},
+  "testimonios": [
+    "El Migue es un fiera. Buen trato y precio. Siempre que pueda volveré.",
+    "He ido por primera vez, no tengo un pelo fácil y la verdad es que el resultado me ha gustado mucho. Me atendió David. Volveré.",
+    "Gran servicio por parte de Juan, volveré seguro. Impecable atención.",
+    "Impecable atención y servicio. Siempre que pueda volveré."
+  ],
+  "maps_url": "https://maps.google.com/?cid=1830763456017885540",
+  "fuentes": ["Google Maps", "Belliata"],
+  "metadata": {"fecha_extraccion": "2026-06-12", "agente": "deepseek-v4-flash"}
+}
