@@ -168,6 +168,7 @@ Por cada negocio, generar un archivo `{id}-{slug}.json` en `data/` con esta estr
 ### Reglas de variación obligatoria:
 - **Paleta única por categoria**: Cada categoría usa su propia paleta de colores (no compartir variables CSS entre landing pages de distinto tipo)
 - **Layout variable**: Alternar entre layouts single-column, two-column, o con sidebar según el tipo de negocio
+- **Grid con resto impar**: Cuando una grid de tarjetas (servicios, productos, etc.) tiene número impar de items y se usa 3 columnas, la última fila debe quedar centrada. Usar `grid-template-columns: repeat(6, 1fr)` con `grid-column: span 2` en cada card, y posicionar las cards de la última fila con `nth-child` para que ocupen las columnas centrales. Ejemplo con 5 cards: `:nth-child(4) { grid-column: 2 / 4 }` y `:nth-child(5) { grid-column: 4 / 6 }`.
 - **Hero variable**: Unos pueden tener gradiente, otros imagen de fondo, otros patrón geométrico
 - **Secciones variables**: Un taller mecánico no necesita sección de "pilates" igual que un fisio no necesita "diagnóstico de motor". Las secciones se adaptan al tipo de negocio
 - **Misma paleta intra-categoría**: Todos los negocios de la misma categoría comparten la misma paleta y familia de diseño para coherencia visual
