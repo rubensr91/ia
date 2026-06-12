@@ -148,7 +148,16 @@ body {
 
 /* Servicios */
 .servicios { background:var(--bg-card); }
-.servicios-grid { display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:24px; }
+.servicios-grid {
+  display:grid;
+  grid-template-columns:repeat(3, 1fr);
+  gap:24px;
+  max-width:900px;
+  margin:0 auto;
+}
+/* Con 5 cards en 3 columnas, las 2 últimas van centradas */
+.servicios-grid .servicio-card:nth-child(4) { grid-column:2; }
+.servicios-grid .servicio-card:nth-child(5) { grid-column:3; }
 .servicio-card {
   background:var(--bg-surface);padding:32px;border-radius:var(--radius);
   border:1px solid var(--border);text-align:center;
@@ -280,7 +289,10 @@ body {
   .nav-toggle { display:flex;flex-direction:column; }
   .hero h1 { font-size:2.8rem; }
   .hero-subtitle { font-size:1.1rem; }
-  .reserva-grid,.contacto-grid { grid-template-columns:1fr; }
+   .reserva-grid,.contacto-grid { grid-template-columns:1fr; }
+  .servicios-grid { grid-template-columns:1fr; }
+  .servicios-grid .servicio-card:nth-child(4),
+  .servicios-grid .servicio-card:nth-child(5) { grid-column:auto; }
   .form-row { grid-template-columns:1fr; }
   .cta-flotante { display:flex; }
   .section { padding:64px 0; }
