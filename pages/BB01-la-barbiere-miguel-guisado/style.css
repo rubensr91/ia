@@ -150,14 +150,14 @@ body {
 .servicios { background:var(--bg-card); }
 .servicios-grid {
   display:grid;
-  grid-template-columns:repeat(3, 1fr);
+  grid-template-columns:repeat(6, 1fr);
   gap:24px;
   max-width:900px;
   margin:0 auto;
 }
-/* Con 5 cards en 3 columnas, las 2 últimas van centradas */
-.servicios-grid .servicio-card:nth-child(4) { grid-column:2; }
-.servicios-grid .servicio-card:nth-child(5) { grid-column:3; }
+.servicios-grid .servicio-card { grid-column:span 2; }
+.servicios-grid .servicio-card:nth-child(4) { grid-column:2 / 4; }
+.servicios-grid .servicio-card:nth-child(5) { grid-column:4 / 6; }
 .servicio-card {
   background:var(--bg-surface);padding:32px;border-radius:var(--radius);
   border:1px solid var(--border);text-align:center;
